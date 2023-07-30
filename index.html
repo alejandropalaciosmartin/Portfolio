@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" style="color-scheme: dark;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+  <div class="noise"></div>
+
+  <div class="flex flex-col m-5" style="opacity: 1; transform: none;">
+    <div class="grid grid-cols-3 gap-2 md:grid-cols-4 md:gap-4 my-5 container mx-auto xl:px-20">
+
+      <!-- ABOUT ME CARD -->
+      <div class="relative col-span-3 aspect-square md:aspect-auto md:row-span-2 bg-[#af72ff56] rounded-3xl overflow-hidden">
+        <div class="AboutCard"></div>
+        <div class="h-full md:w-8/12 absolute top-0 left-0 p-4 md:p-8 flex flex-col justify-start  md:justify-end">
+          <h1 class="text-3xl md:text-xl lg:text-5xl font-bold text-white mb-4 md:mb-5">
+            👋 <!-- -->Hi, I'm<!-- --> Alejandro Palacios
+          </h1>
+          <p class="text-md md:text-lg lg:text-2xl text-white">
+            I am a <b>backend developer</b> with experience in <b>C#</b>. I'm good also at <b>HTML</b> and <b>CSS</b>, as well as<!-- --> 
+            <b>JavaScript</b>. I love learning new things and experimenting with new technologies. I have a good eye for details and I always 
+            put my all into my work.
+          </p>
+        </div>
+      </div>
+
+      <!-- YEARS CARD -->
+      <div class="text-white rounded-3xl flex flex-col col-span-1 relative overflow-hidden aspect-square shadow-sm bg-[#ff4848d3] p-4 justify-center items-center">
+        <div class="">
+          <div class="flex justify-center items-center flex-col">
+            <p class="text-xs md:text-lg uppercase font">age</p>
+            <p class="text-4xl md:text-8xl font-bold">20</p>
+            <p class="text-xs md:text-xl uppercase font-semibold text-center">years old</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DOWNLOAD CV CARD -->
+      <a href="./assets/CurrículumEN.pdf" download="CurrículumEN.pdf" target="_blank" class="text-decoration transition duration-500 ease-in-out scale text-white rounded-3xl flex flex-col col-span-1 relative overflow-hidden aspect-square shadow-sm bg-[#316c3bd3] p-4 justify-center items-center">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </svg>
+        
+        <div class="">
+          <div class="flex justify-center items-center flex-col">
+            <p class="text-xs md:text-lg uppercase font">download</p>
+            <p class="text-4xl md:text-8xl font-bold" style="-webkit-transform: rotate(90deg);">➜</p>
+            <p class="text-xs md:text-xl uppercase font-semibold text-center">CV 📄</p>
+          </div>
+        </div>
+      </a>
+
+      <!-- MYSELF PHOTO CARD
+      <img src="/assets/me.jpg" class="rounded-3xl flex flex-col col-span-1 relative overflow-hidden aspect-square justify-center items-center"> -->
+
+      <!-- LINKEDIN BUTTON -->
+      <a href="https://www.linkedin.com/in/alejandropalaciosmartin/" target="_blank" rel="noopener noreferrer" aria-label="Linkedin" class="flex flex-col justify-center items-center bg-[#49a7ff56] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer scale transition duration-300 ease-in-out">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </svg>
+
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="text-4xl md:text-7xl lg:text-9xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+        </svg>
+      </a>
+
+      <!-- GITHUB BUTTON -->
+      <a href="https://github.com/alejandropalaciosmartin" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="flex flex-col justify-center items-center bg-[#554e4ed3] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer scale transition duration-300 ease-in-out">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink" height="1em" width="1em" class="text-4xl md:text-7xl lg:text-9xl text-white text-[#ffffffaa]">
+          <path d="M32 0a32.021 32.021 0 0 0-10.1 62.4c1.6.3 2.2-.7 2.2-1.5v-6c-8.9 1.9-10.8-3.8-10.8-3.8-1.5-3.7-3.6-4.7-3.6-4.7-2.9-2 .2-1.9.2-1.9 3.2.2 4.9 3.3 4.9 3.3 2.9 4.9 7.5 3.5 9.3 2.7a6.93 6.93 0 0 1 2-4.3c-7.1-.8-14.6-3.6-14.6-15.8a12.27 12.27 0 0 1 3.3-8.6 11.965 11.965 0 0 1 .3-8.5s2.7-.9 8.8 3.3a30.873 30.873 0 0 1 8-1.1 30.292 30.292 0 0 1 8 1.1c6.1-4.1 8.8-3.3 8.8-3.3a11.965 11.965 0 0 1 .3 8.5 12.1 12.1 0 0 1 3.3 8.6c0 12.3-7.5 15-14.6 15.8a7.746 7.746 0 0 1 2.2 5.9v8.8c0 .9.6 1.8 2.2 1.5A32.021 32.021 0 0 0 32 0z" fill="#ffffffaa"></path>
+          <path d="M12.1 45.9c-.1.2-.3.2-.5.1s-.4-.3-.3-.5.3-.2.6-.1c.2.2.3.4.2.5zm1.3 1.5a.589.589 0 0 1-.8-.8.631.631 0 0 1 .7.1.494.494 0 0 1 .1.7zm1.3 1.8a.585.585 0 0 1-.7-.3.6.6 0 0 1 0-.8.585.585 0 0 1 .7.3c.2.3.2.7 0 .8zm1.7 1.8c-.2.2-.5.1-.8-.1-.3-.3-.4-.6-.2-.8a.619.619 0 0 1 .8.1.554.554 0 0 1 .2.8zm2.4 1c-.1.3-.4.4-.8.3s-.6-.4-.5-.7.4-.4.8-.3c.3.2.6.5.5.7zm2.6.2c0 .3-.3.5-.7.5s-.7-.2-.7-.5.3-.5.7-.5c.4.1.7.3.7.5zm2.4-.4q0 .45-.6.6a.691.691 0 0 1-.8-.3q0-.45.6-.6c.5-.1.8.1.8.3z" fill="#ffffffaa"></path>
+        </svg>
+      </a>
+
+      <!-- EMAIL BUTTON -->
+      <a href="mailto:srjalean@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email" class="flex flex-col justify-center items-center bg-[#7785ff56] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer scale transition duration-300 ease-in-out">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </svg>
+        
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-4xl md:text-7xl lg:text-9xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+        </svg>
+      </a>
+
+      <!-- TWITTER BUTTON -->
+      <a href="https://twitter.com/srjalean" target="_blank" rel="noopener noreferrer" aria-label="Twitter" class="flex flex-col justify-center items-center bg-[#49d5ff56] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer scale transition duration-300 ease-in-out">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </svg>
+        
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="text-4xl md:text-7xl lg:text-9xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+        </svg>
+      </a>
+
+      <!-- INSTAGRAM BUTTON -->
+      <a href="https://www.instagram.com/_alex_palacios_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="flex flex-col justify-center items-center bg-[#49d5ff56] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm cursor-pointer scale transition duration-300 ease-in-out">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path>
+        </svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" aria-describedby="desc" role="img" class="text-4xl md:text-7xl lg:text-9xl text-white text-[#ffffffaa]" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">>
+          <path d="M44.122 2H19.87A17.875 17.875 0 0 0 2 19.835v24.2a17.875 17.875 0 0 0 17.87 17.834h24.252A17.875 17.875 0 0 0 62 44.034v-24.2A17.875 17.875 0 0 0 44.122 2zM55.96 44.034a11.825 11.825 0 0 1-11.838 11.812H19.87A11.825 11.825 0 0 1 8.032 44.034v-24.2A11.825 11.825 0 0 1 19.87 8.022h24.252A11.825 11.825 0 0 1 55.96 19.835zm0 0" fill="none" stroke="#ffffffaa" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.5" stroke-linejoin="round"></path>
+          <path data-name="layer1" d="M32 16.45a15.484 15.484 0 1 0 15.514 15.484A15.519 15.519 0 0 0 32 16.45zm0 24.95a9.461 9.461 0 1 1 9.482-9.461A9.472 9.472 0 0 1 32 41.4zm19.263-24.834a3.719 3.719 0 1 1-3.719-3.711 3.714 3.714 0 0 1 3.719 3.711zm0 0" fill="none" stroke="#ffffffaa" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" stroke-linejoin="round"></path>
+        </svg>
+      </a>
+
+      <!-- MY PROYECTS CARD -->
+      <a class="relative rounded-3xl col-span-2 md:aspect-auto overflow-hidden scale transition duration-500 ease-in-out" href="https://github.com/alejandropalaciosmartin?tab=repositories" target="_blank">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="absolute right-4 bottom-4 top-auto md:right-8 md:top-8 text-white text-[#ffffffaa] z-10 text-4xl" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+        </svg>
+        <div class="w-full h-full absolute top-0 left-0 text-white p-4 md:p-8 z-10 pointer-events-none">
+          <h2 class="font-bold text-md md:text-xl lg:text-4xl">Projects</h2>
+          <p class="font-base text-xs md:text-2xl lg:text-2xl md:w-4/5 lg:w-5/6 lg:mt-4">Here you can find some of my projects and experiments.</p>
+        </div>
+        <div class="w-full h-full bg-[#af72ff56] absolute">
+          <img alt="" loading="lazy" width="480" height="480" decoding="async" data-nimg="1" class="w-full h-full object-cover opacity-40" style="color:transparent" srcset="./assets/coding.gif" src="./assets/coding.gif">
+        </div>
+      </a>
+
+      <div class="grid grid-cols-4 place-content-center place-items-center gap-3 md:gap-8 p-4 md:p-8 bg-[#ffad7756] rounded-3xl relative overflow-hidden col-span-1 aspect-square shadow-sm text-lg md:text-xl lg:text-5xl text-center text-[#ffffffde]">
+        <!--HTML-->
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <title></title>
+          <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
+        </svg>
+
+        <!--CSS-->
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <title></title>
+          <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"></path>
+        </svg>
+
+        <!--JAVASCRIPT-->
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <title></title>
+          <path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"></path>
+        </svg>
+
+        <!--GIT-->
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+          <title></title>
+          <path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.713.721.713 1.883 0 2.6-.719.721-1.889.721-2.609 0-.719-.719-.719-1.879 0-2.598.182-.18.387-.316.605-.406V8.835c-.217-.091-.424-.222-.6-.401-.545-.545-.676-1.342-.396-2.009L7.636 3.7.45 10.881c-.6.605-.6 1.584 0 2.189l10.48 10.477c.604.604 1.582.604 2.186 0l10.43-10.43c.605-.603.605-1.582 0-2.187"></path>
+        </svg>
+
+        </div>
+
+    </div>  
+  </div>
+    
+    
+</body>
+</html>
