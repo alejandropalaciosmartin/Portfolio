@@ -350,17 +350,17 @@ img, video {
     justify-content: flex-end;
   }
   .md\:text-xl {
-    font-size: 1.25rem;
+    font-size: 1.65rem;
     line-height: 1.75rem;
   }.md\:mb-5 {
     margin-bottom: 1.25rem;
   }
   .md\:text-lg {
-    font-size: 1.125rem;
+    font-size: 1.4rem;
     line-height: 1.75rem;
   }
   .md\:text-8xl {
-    font-size: 6rem;
+    font-size: 7.5rem;
     line-height: 1;
   }
   .md\:top-8 {
@@ -389,14 +389,14 @@ img, video {
 }
 @media (min-width: 1024px){
   .container {
-    max-width: 1024px;
+    max-width: 1280px;
   }
   .lg\:text-5xl {
-    font-size: 3rem;
+    font-size: 3.9rem;
     line-height: 1;
   }
   .lg\:text-9xl {
-    font-size: 8rem;
+    font-size: 10rem;
     line-height: 1;
   }
   .lg\:text-4xl {
@@ -404,8 +404,8 @@ img, video {
     line-height: 2.5rem;
   }
   .lg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1.95rem;
+    line-height: 2.5rem;
   }
   .lg\:w-5\/6 {
     width: 83.333333%;
