@@ -84,7 +84,7 @@ body{
   position: relative;
   width: 100%;
   height: 100%;
-  opacity: .05;
+  opacity: .4;
 }
 .AboutCard:after, 
 .AboutCard:before {
@@ -105,6 +105,20 @@ body{
   background-color: #ececec80;
   left: -52%;
   animation-delay: .5s;
+}
+@keyframes AboutCard_anim__ioWVo {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(50%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  75% {
+    transform: translateX(-50%);
+  }
 }
 .absolute {
   position: absolute;
@@ -424,3 +438,4 @@ img, video {
   background: #cccccc40;
   border-radius: 4px;
 }
+
