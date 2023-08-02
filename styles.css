@@ -316,8 +316,23 @@ img, video {
 .bg-\[\#316c3bd3\] {
   background-color: #316c3bd3;
 }
-
-
+.text-sm {
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.-z-10 {
+  z-index: -10;
+}
+.bg-\[\#00000077\] {
+  background-color: #00000077;
+}
+.justify-between {
+  justify-content: space-between;
+}
 
 
 
@@ -400,6 +415,10 @@ img, video {
   .md\:gap-8 {
     gap: 2rem;
   }
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+}
 }
 @media (min-width: 1024px){
   .container {
