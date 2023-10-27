@@ -16,3 +16,6 @@ This personal portfolio website reflects my style, personality, and skills. It p
 
 ## Deliverables
 The repository contains the complete source code and necessary files for local execution. It also includes a link to the publicly deployed version.
+
+Feel free to provide feedback, suggestions, or contributions to enhance the code or address any issues. Your input is always welcome to improve this implementation.
+
