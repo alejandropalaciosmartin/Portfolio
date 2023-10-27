@@ -2,6 +2,9 @@
 
 This repository hosts my personal portfolio website, designed and implemented using HTML and CSS. The website is inspired by the 'Bentos' style and serves as a showcase of my work and skills.
 
+## Demo
+You can explore my personal portfolio website by visiting the following link: [DEMO](https://alejandropalaciosmartin.github.io/Portfolio/)
+
 ## About
 This personal portfolio website reflects my style, personality, and skills. It provides an overview of my professional background, showcases my projects, and allows you to get to know me better. The design is inspired by the 'Bentos' style, offering an elegant and user-friendly experience.
 
@@ -13,6 +16,3 @@ This personal portfolio website reflects my style, personality, and skills. It p
 
 ## Deliverables
 The repository contains the complete source code and necessary files for local execution. It also includes a link to the publicly deployed version.
-
-## Demo
-You can explore my personal portfolio website by visiting the following link: [DEMO](https://alejandropalaciosmartin.github.io/Portfolio/)
