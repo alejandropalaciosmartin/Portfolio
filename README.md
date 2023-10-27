@@ -12,7 +12,7 @@ This personal portfolio website reflects my style, personality, and skills. It p
 - A clean and user-friendly design inspired by 'Bentos.'
 
 ## Deliverables
-The repository contains the complete source code and necessary files for local execution. It also includes a link to the publicly deployed version. The names of the students who worked on the project are also provided.
+The repository contains the complete source code and necessary files for local execution. It also includes a link to the publicly deployed version.
 
 ## Demo
-You can explore my personal portfolio website by visiting the following link: [Portfolio Demo](https://your-portfolio-website-link-here)
+You can explore my personal portfolio website by visiting the following link: [DEMO](https://alejandropalaciosmartin.github.io/Portfolio/)
