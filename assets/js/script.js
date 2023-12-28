@@ -1,5 +1,5 @@
 'use strict';
-
+emailjs.init('IQfjjrruVLOv2Td0U')
 
 
 // element toggle function
@@ -157,3 +157,30 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+// function to send email
+const btnText = document.getElementById('btn-text');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   btnText.innerText = 'Sending...';
+
+   const serviceID = 'default_service';
+   const templateID = 'template_cwt0n3m';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btnText.innerText = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btnText.innerText = 'Send Email';
+      alert(JSON.stringify(err));
+    })
+    .finally(() => {
+      document.querySelector('[name="fullname"]').value = "";
+      document.querySelector('[name="email"]').value = "";
+      document.querySelector('[name="message"]').value = "";
+    });
+});
