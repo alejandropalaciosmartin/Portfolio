@@ -156,6 +156,20 @@ body { background: var(--smoky-black); }
   #REUSED STYLE
 \*-----------------------------------*/
 
+
+.repository {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--white-1);
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.repository:hover {
+  color: var(--light-gray-70);
+}
+
 .sidebar,
 article {
   background: var(--eerie-black-2);
@@ -925,6 +939,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
+
 
 
 
