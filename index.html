@@ -18,6 +18,12 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!--
+    - programming language icon link
+  -->
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+
+  <!--
     - google font link
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -378,25 +384,55 @@
         <section class="skill">
 
           <h3 class="h3 skills-title">My skills</h3>
+          <div class="skills-grid">
 
-          <ul class="skills-list content-card">
+            <h4 class="skill-category"><p class="dash_yellow"> ( </p>Frontend<p class="dash_yellow"> ) </p></h4>
+            <i class="devicon-html5-plain skill-icon"></i>
+            <i class="devicon-css3-plain skill-icon"></i>
+            <i class="devicon-javascript-plain skill-icon"></i>
+            <i class="devicon-react-original skill-icon"></i>
+            <i class="devicon-typescript-plain skill-icon"></i>
+            <i class="devicon-sass-original skill-icon"></i>
+            <i class="devicon-tailwindcss-original skill-icon"></i>
+            <i class="devicon-blazor-original skill-icon"></i>
+            <i class="devicon-dart-plain skill-icon"></i>
+            <i class="devicon-flutter-plain skill-icon"></i>
 
-            <!-- EXAMPLE -->
-            <!-- <li class="skills-item">
+            <h4 class="skill-category"><p class="dash_yellow"> ( </p>Backend<p class="dash_yellow"> ) </p></h4>
+            <i class="devicon-csharp-plain skill-icon"></i>
+            <i class="devicon-nodejs-plain skill-icon"></i>
+            <i class="devicon-php-plain skill-icon"></i>
+            <i class="devicon-python-plain skill-icon"></i>
+            <i class="devicon-symfony-original skill-icon"></i>
 
-              <div class="title-wrapper">
-                <h5 class="h5">HTML</h5>
-                <data value="80">80%</data>
-              </div>
+            <h4 class="skill-category"><p class="dash_yellow"> ( </p>BBDD<p class="dash_yellow"> ) </p></h4>
+            <i class="devicon-mariadb-original skill-icon"></i>
+            <i class="devicon-mongodb-plain skill-icon"></i>
+            <i class="devicon-mysql-original skill-icon"></i>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
+            <h4 class="skill-category"><p class="dash_yellow"> ( </p>Tools<p class="dash_yellow"> ) </p></h4>
+            <i class="devicon-apache-plain-wordmark skill-icon"></i>
+            <i class="devicon-bash-plain skill-icon"></i>
+            <i class="devicon-bitbucket-original skill-icon"></i>
+            <i class="devicon-confluence-plain skill-icon"></i>
+            <i class="devicon-docker-plain-wordmark skill-icon"></i>
+            <i class="devicon-filezilla-plain skill-icon"></i>
+            <i class="devicon-git-plain skill-icon"></i>
+            <i class="devicon-github-original skill-icon"></i>
+            <i class="devicon-jira-plain skill-icon"></i>
+            <i class="devicon-kubernetes-plain skill-icon"></i>
+            <i class="devicon-linux-plain skill-icon"></i>
+            <i class="devicon-npm-original-wordmark skill-icon"></i>
+            <i class="devicon-nuget-original skill-icon"></i>
+            <i class="devicon-playwright-plain skill-icon"></i>
+            <i class="devicon-postman-plain skill-icon"></i>
+            <i class="devicon-powershell-plain skill-icon"></i>
+            <i class="devicon-putty-plain skill-icon"></i>
+            <i class="devicon-tomcat-line skill-icon"></i>
+            <i class="devicon-trello-plain skill-icon"></i>
+            <i class="devicon-ubuntu-plain skill-icon"></i>
 
-            </li> -->
-
-          </ul>
-
+          </div>
         </section>
 
 
@@ -454,6 +490,14 @@
 
             <li class="filter-item">
               <button data-filter-btn>HTML/CSS/JS</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Javascript</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>React</button>
             </li>
 
           </ul>
@@ -656,6 +700,78 @@
                 <h3 class="project-title">Personal Portfolio</h3>
 
                 <p class="project-category">HTML / CSS / JS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="javascript">
+              <a href="https://github.com/alejandropalaciosmartin/Playwright_testing_prueba" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyect-10.png" alt="playwright" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Playwright Testing</h3>
+
+                <p class="project-category">Javascript (testing)</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="html/css/js">
+              <a href="https://github.com/alejandropalaciosmartin/blym" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyect-11.png" alt="blym" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Blym</h3>
+
+                <p class="project-category">HTML / CSS / JS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="react">
+              <a href="https://github.com/alejandropalaciosmartin/prueba-proyecto-react" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyect-12.png" alt="react test" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">First React Test</h3>
+
+                <p class="project-category">React</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="php">
+              <a href="https://github.com/alejandropalaciosmartin/movies-symfony-prueba target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/proyect-13.png" alt="simphony test" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">First Simphony Test</h3>
+
+                <p class="project-category">PHP</p>
 
               </a>
             </li>
